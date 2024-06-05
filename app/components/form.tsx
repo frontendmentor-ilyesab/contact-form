@@ -44,9 +44,9 @@ export default function Form({ onSubmit, isInvalid, emailError }: FormProps) {
         <Error error={emailError} />
       </div>
       <div className="col-span-full grid gap-y-4 md:grid-cols-2 md:gap-x-4">
-        <legend className="col-span-full">
+        <div className="col-span-full">
           Query Type <span className="text-green-medium">*</span>
-        </legend>
+        </div>
         <FormRadioGroup
           id="general"
           labelText="General Enquiry"
